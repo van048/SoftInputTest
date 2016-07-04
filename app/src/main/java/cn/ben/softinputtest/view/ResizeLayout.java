@@ -5,9 +5,6 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.widget.LinearLayout;
 
-/**
- * Created by BenYang on 2016/7/1.
- */
 public class ResizeLayout extends LinearLayout {
     private static int count = 0;
 

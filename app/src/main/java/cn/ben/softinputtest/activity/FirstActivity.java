@@ -14,11 +14,14 @@ public class FirstActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first);
 
-        findViewById(R.id.button1).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(FirstActivity.this, SecondActivity.class));
-            }
-        });
+        View button1 = findViewById(R.id.button1);
+        if (button1 != null) {
+            button1.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    startActivity(new Intent(FirstActivity.this, SecondActivity.class));
+                }
+            });
+        }
     }
 }

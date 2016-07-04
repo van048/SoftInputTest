@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">SoftInputTest</string>
+    <string name="start_keyboard_activity">start KeyboardActivity</string>
+    <string name="hello">hello</string>
+    <string name="finish_this_activity">finish this activity</string>
+    <string name="start_third_activity">start ThirdActivity</string>
+    <string name="start_fourth_activity">start FourthActivity</string>
 </resources>
