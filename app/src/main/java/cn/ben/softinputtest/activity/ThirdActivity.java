@@ -23,5 +23,15 @@ public class ThirdActivity extends AppCompatActivity {
                 }
             });
         }
+
+        View button2 = findViewById(R.id.button2);
+        if (button2 != null) {
+            button2.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    finish();
+                }
+            });
+        }
     }
 }

@@ -5,4 +5,8 @@
     <string name="finish_this_activity">finish this activity</string>
     <string name="start_third_activity">start ThirdActivity</string>
     <string name="start_fourth_activity">start FourthActivity</string>
+    <string name="first_activity_description">This activity uses stateUnchanged.</string>
+    <string name="second_activity_description">This activity uses stateUnspecified and adjustResize. Change the visibility of edittext to see differences!</string>
+    <string name="third_activity_description">This activity uses stateVisible or stateHidden. You can change it in manifest to see differences!</string>
+    <string name="fourth_activity_description">This activity uses adjustPan.</string>
 </resources>
